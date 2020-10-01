@@ -10,8 +10,8 @@ using Province.Data;
 namespace Province.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200930230258_myfirst")]
-    partial class myfirst
+    [Migration("20201001125401_myFirst")]
+    partial class myFirst
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
